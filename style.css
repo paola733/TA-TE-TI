@@ -1,0 +1,32 @@
+body {
+    font-family: Showcard Gothic,sans-serif, Arial ;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: brown;
+  }
+  
+/* dentro de estilo.css */
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  
+  
+.cells {
+    width: 30%;
+    height: 100px;
+    border: 3px solid rgb(97, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+
+      
+  }
